@@ -6,7 +6,7 @@ from langchain_openai import ChatOpenAI
 
 chat_model = ChatOpenAI(model="gpt-4o") # 필요에 따라 모델명 지정
 
-st.title("인공지능시인")
+st.title("시은이네 인공지능시인")
 
 content = st.text_input("시의 주제를 제시해주세요.")
 
